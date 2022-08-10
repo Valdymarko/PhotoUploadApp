@@ -7,6 +7,7 @@
 
 import UIKit
 
+// MARK: - UserIDViewController
 final class UserIDViewController: UIViewController {
     
     // MARK: - IBOutlets
@@ -22,19 +23,22 @@ final class UserIDViewController: UIViewController {
         userIDTextField.delegate = self
         hideKeyboardWhenTappedAround()
     }
-
-    // MARK: - IBActions
-    @IBAction private func textChanged(_ sender: UITextField) {
-
-    }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        userIDTextField.text = ""
+    }
+
+    // MARK: - IBAction
     @IBAction private func actionButtonTapped(_ sender: UIButton) {
         pushToCamera()
     }
     
     // MARK: - Private methods
     private func pushToCamera() {
+        guard let userId = userIDTextField.text else { return }
         let cameraViewController = CameraViewController.instantiateFromStoryboard()
+        cameraViewController.userId = Int(userId)
         self.navigationController?.pushViewController(cameraViewController, animated: true)
     }
 }

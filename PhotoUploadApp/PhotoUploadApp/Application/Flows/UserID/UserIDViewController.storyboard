@@ -23,9 +23,6 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" smartInsertDeleteType="no" smartQuotesType="no" textContentType="postal-code"/>
-                                <connections>
-                                    <action selector="textChanged:" destination="Y6W-OH-hqX" eventType="editingChanged" id="RdS-Fy-zXL"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHY-rN-pkO">
                                 <rect key="frame" x="60" y="294" width="294" height="50"/>

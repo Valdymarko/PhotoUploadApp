@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3FE50E28A320E600943706 /* UploadType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3FE50D28A320E600943706 /* UploadType.swift */; };
+		0F3FE51028A32B1600943706 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3FE50F28A32B1600943706 /* DateHelper.swift */; };
+		0F3FE51228A32B4A00943706 /* TimeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3FE51128A32B4A00943706 /* TimeFormat.swift */; };
+		0FB5A9A628A266F500581905 /* PhotoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5A9A528A266F500581905 /* PhotoPreviewViewController.swift */; };
+		0FB5A9A828A266FD00581905 /* PhotoPreviewViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB5A9A728A266FD00581905 /* PhotoPreviewViewController.storyboard */; };
+		0FB5A9AC28A27A0C00581905 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5A9AB28A27A0C00581905 /* UploadViewController.swift */; };
+		0FB5A9AE28A27A1300581905 /* UploadViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB5A9AD28A27A1300581905 /* UploadViewController.storyboard */; };
+		0FB5A9B128A2FB8700581905 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5A9B028A2FB8700581905 /* CameraService.swift */; };
+		0FB5A9B328A305C900581905 /* UploadPhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5A9B228A305C900581905 /* UploadPhotoService.swift */; };
+		0FB5A9B528A3079900581905 /* AWSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5A9B428A3079900581905 /* AWSService.swift */; };
+		0FB5A9BA28A313C100581905 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5A9B928A313C100581905 /* FirebaseService.swift */; };
+		0FB5A9BC28A31B5D00581905 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5A9BB28A31B5D00581905 /* APIService.swift */; };
 		0FE4D705289FC01100DA0A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4D704289FC01100DA0A3A /* AppDelegate.swift */; };
 		0FE4D707289FC01100DA0A3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4D706289FC01100DA0A3A /* SceneDelegate.swift */; };
 		0FE4D709289FC01100DA0A3A /* UserIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4D708289FC01100DA0A3A /* UserIDViewController.swift */; };
@@ -19,9 +31,22 @@
 		0FE4D726289FC9FE00DA0A3A /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4D725289FC9FE00DA0A3A /* UIViewController+Keyboard.swift */; };
 		0FE4D729289FD67C00DA0A3A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4D728289FD67C00DA0A3A /* CameraViewController.swift */; };
 		0FE4D72B289FD68300DA0A3A /* CameraViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE4D72A289FD68300DA0A3A /* CameraViewController.storyboard */; };
+		C783C7DD1DFDE19066C2FDE7 /* Pods_PhotoUploadApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CD591266B144DDA2248456 /* Pods_PhotoUploadApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F3FE50D28A320E600943706 /* UploadType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadType.swift; sourceTree = "<group>"; };
+		0F3FE50F28A32B1600943706 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		0F3FE51128A32B4A00943706 /* TimeFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormat.swift; sourceTree = "<group>"; };
+		0FB5A9A528A266F500581905 /* PhotoPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewViewController.swift; sourceTree = "<group>"; };
+		0FB5A9A728A266FD00581905 /* PhotoPreviewViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotoPreviewViewController.storyboard; sourceTree = "<group>"; };
+		0FB5A9AB28A27A0C00581905 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		0FB5A9AD28A27A1300581905 /* UploadViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UploadViewController.storyboard; sourceTree = "<group>"; };
+		0FB5A9B028A2FB8700581905 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		0FB5A9B228A305C900581905 /* UploadPhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotoService.swift; sourceTree = "<group>"; };
+		0FB5A9B428A3079900581905 /* AWSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSService.swift; sourceTree = "<group>"; };
+		0FB5A9B928A313C100581905 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		0FB5A9BB28A31B5D00581905 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		0FE4D701289FC01100DA0A3A /* PhotoUploadApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoUploadApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE4D704289FC01100DA0A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FE4D706289FC01100DA0A3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +61,9 @@
 		0FE4D725289FC9FE00DA0A3A /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
 		0FE4D728289FD67C00DA0A3A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		0FE4D72A289FD68300DA0A3A /* CameraViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CameraViewController.storyboard; sourceTree = "<group>"; };
+		55CD591266B144DDA2248456 /* Pods_PhotoUploadApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoUploadApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF591302E754838D6A2C53C /* Pods-PhotoUploadApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoUploadApp.debug.xcconfig"; path = "Target Support Files/Pods-PhotoUploadApp/Pods-PhotoUploadApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EC50A55A285730E4C9E3CE50 /* Pods-PhotoUploadApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoUploadApp.release.xcconfig"; path = "Target Support Files/Pods-PhotoUploadApp/Pods-PhotoUploadApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +71,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C783C7DD1DFDE19066C2FDE7 /* Pods_PhotoUploadApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3FE50C28A320D400943706 /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				0F3FE50D28A320E600943706 /* UploadType.swift */,
+				0F3FE51128A32B4A00943706 /* TimeFormat.swift */,
+			);
+			path = Enumerations;
+			sourceTree = "<group>";
+		};
+		0FB5A9A428A266DA00581905 /* PhotoPreview */ = {
+			isa = PBXGroup;
+			children = (
+				0FB5A9A528A266F500581905 /* PhotoPreviewViewController.swift */,
+				0FB5A9A728A266FD00581905 /* PhotoPreviewViewController.storyboard */,
+			);
+			path = PhotoPreview;
+			sourceTree = "<group>";
+		};
+		0FB5A9A928A279F300581905 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				0FB5A9AB28A27A0C00581905 /* UploadViewController.swift */,
+				0FB5A9AD28A27A1300581905 /* UploadViewController.storyboard */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
+		0FB5A9AF28A2FB7800581905 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0FB5A9B028A2FB8700581905 /* CameraService.swift */,
+				0FB5A9B228A305C900581905 /* UploadPhotoService.swift */,
+				0FB5A9B428A3079900581905 /* AWSService.swift */,
+				0FB5A9B928A313C100581905 /* FirebaseService.swift */,
+				0FB5A9BB28A31B5D00581905 /* APIService.swift */,
+				0F3FE50F28A32B1600943706 /* DateHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0FB5A9B628A3111E00581905 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		0FE4D6F8289FC01100DA0A3A = {
 			isa = PBXGroup;
 			children = (
 				0FE4D703289FC01100DA0A3A /* PhotoUploadApp */,
 				0FE4D702289FC01100DA0A3A /* Products */,
+				1A5BFD961E646ADA2F09E34D /* Pods */,
+				FB42747B274F5E6296743BBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +157,8 @@
 		0FE4D718289FC2D100DA0A3A /* Flows */ = {
 			isa = PBXGroup;
 			children = (
+				0FB5A9A928A279F300581905 /* Upload */,
+				0FB5A9A428A266DA00581905 /* PhotoPreview */,
 				0FE4D727289FD66900DA0A3A /* Camera */,
 				0FE4D71F289FC49E00DA0A3A /* UserID */,
 				0FE4D71D289FC3C700DA0A3A /* MainNavigationController.swift */,
@@ -98,6 +178,9 @@
 		0FE4D71A289FC2FE00DA0A3A /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0F3FE50C28A320D400943706 /* Enumerations */,
+				0FB5A9B628A3111E00581905 /* Entities */,
+				0FB5A9AF28A2FB7800581905 /* Services */,
 				0FE4D722289FC4BF00DA0A3A /* Extensions */,
 				0FE4D704289FC01100DA0A3A /* AppDelegate.swift */,
 				0FE4D706289FC01100DA0A3A /* SceneDelegate.swift */,
@@ -149,6 +232,23 @@
 			path = Camera;
 			sourceTree = "<group>";
 		};
+		1A5BFD961E646ADA2F09E34D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFF591302E754838D6A2C53C /* Pods-PhotoUploadApp.debug.xcconfig */,
+				EC50A55A285730E4C9E3CE50 /* Pods-PhotoUploadApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB42747B274F5E6296743BBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55CD591266B144DDA2248456 /* Pods_PhotoUploadApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FE4D715289FC01300DA0A3A /* Build configuration list for PBXNativeTarget "PhotoUploadApp" */;
 			buildPhases = (
+				E36E452EFB922009693B6D04 /* [CP] Check Pods Manifest.lock */,
 				0FE4D6FD289FC01100DA0A3A /* Sources */,
 				0FE4D6FE289FC01100DA0A3A /* Frameworks */,
 				0FE4D6FF289FC01100DA0A3A /* Resources */,
+				408899F09655D07D0A8D2312 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,28 +309,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB5A9AE28A27A1300581905 /* UploadViewController.storyboard in Resources */,
 				0FE4D711289FC01300DA0A3A /* LaunchScreen.storyboard in Resources */,
 				0FE4D721289FC4AD00DA0A3A /* UserIDViewController.storyboard in Resources */,
 				0FE4D72B289FD68300DA0A3A /* CameraViewController.storyboard in Resources */,
 				0FE4D70E289FC01300DA0A3A /* Assets.xcassets in Resources */,
 				0FE4D70C289FC01100DA0A3A /* Main.storyboard in Resources */,
+				0FB5A9A828A266FD00581905 /* PhotoPreviewViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		408899F09655D07D0A8D2312 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoUploadApp/Pods-PhotoUploadApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoUploadApp/Pods-PhotoUploadApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoUploadApp/Pods-PhotoUploadApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E36E452EFB922009693B6D04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoUploadApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0FE4D6FD289FC01100DA0A3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB5A9B128A2FB8700581905 /* CameraService.swift in Sources */,
 				0FE4D709289FC01100DA0A3A /* UserIDViewController.swift in Sources */,
 				0FE4D726289FC9FE00DA0A3A /* UIViewController+Keyboard.swift in Sources */,
 				0FE4D724289FC4F000DA0A3A /* UIView+NibRepresentable.swift in Sources */,
 				0FE4D705289FC01100DA0A3A /* AppDelegate.swift in Sources */,
+				0FB5A9B328A305C900581905 /* UploadPhotoService.swift in Sources */,
+				0FB5A9AC28A27A0C00581905 /* UploadViewController.swift in Sources */,
+				0FB5A9BA28A313C100581905 /* FirebaseService.swift in Sources */,
+				0FB5A9BC28A31B5D00581905 /* APIService.swift in Sources */,
+				0F3FE51028A32B1600943706 /* DateHelper.swift in Sources */,
+				0FB5A9A628A266F500581905 /* PhotoPreviewViewController.swift in Sources */,
 				0FE4D729289FD67C00DA0A3A /* CameraViewController.swift in Sources */,
+				0F3FE51228A32B4A00943706 /* TimeFormat.swift in Sources */,
 				0FE4D71E289FC3C700DA0A3A /* MainNavigationController.swift in Sources */,
 				0FE4D707289FC01100DA0A3A /* SceneDelegate.swift in Sources */,
+				0FB5A9B528A3079900581905 /* AWSService.swift in Sources */,
+				0F3FE50E28A320E600943706 /* UploadType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +526,7 @@
 		};
 		0FE4D716289FC01300DA0A3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF591302E754838D6A2C53C /* Pods-PhotoUploadApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,6 +556,7 @@
 		};
 		0FE4D717289FC01300DA0A3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC50A55A285730E4C9E3CE50 /* Pods-PhotoUploadApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

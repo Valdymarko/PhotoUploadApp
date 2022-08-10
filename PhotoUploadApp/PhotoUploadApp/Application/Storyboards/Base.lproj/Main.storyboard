@@ -9,8 +9,9 @@
         <!--Main Navigation Controller-->
         <scene sceneID="05a-Ua-1uw">
             <objects>
-                <navigationController navigationBarHidden="YES" id="2yi-sC-dgt" customClass="MainNavigationController" customModule="PhotoUploadApp" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController id="2yi-sC-dgt" customClass="MainNavigationController" customModule="PhotoUploadApp" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HnZ-y5-EUh">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                 </navigationController>

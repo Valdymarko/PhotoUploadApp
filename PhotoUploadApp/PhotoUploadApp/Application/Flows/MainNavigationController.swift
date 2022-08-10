@@ -8,8 +8,10 @@
 import Foundation
 import UIKit
 
-class MainNavigationController: UINavigationController {
+// MARK: - MainNavigationController
+final class MainNavigationController: UINavigationController {
     
+    // MARK: - Private properties
     private var userIDViewController: UIViewController {
         let userIDViewController = UserIDViewController.instantiateFromStoryboard()
         return userIDViewController
@@ -25,6 +27,7 @@ class MainNavigationController: UINavigationController {
         self.navigationBar.shadowImage = UIImage()
     }
     
+    // MARK: - Private methods
     private func setRootViewController() {
         self.viewControllers = [userIDViewController]
     }
